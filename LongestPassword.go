@@ -27,7 +27,7 @@ func checkValidity(password string) bool {
 	return true
 }
 
-func Solution(S string) int {
+func Solution8(S string) int {
 	// Implement your solution here
 	passwords := strings.Split(S, " ")
 	longestLength := 0

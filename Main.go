@@ -33,7 +33,15 @@ func increaseArray(start, stop, step int) []int {
 
 func main() {
 
-	fmt.Println(Solution("test 5 ?a0A pass007? ?xy1 a1a"))
+	fmt.Println(Solution(2, []int{3, 5, 7, 6, 3}))
+
+	//fmt.Println(Solution13("AAAACCCCCCCCCAAAAAAAABAACCC"))
+	//fmt.Println(Solution11(10, []int{1, 2, 1, 1}, []int{1, 4, 3, 2, 4}))
+
+	//fmt.Println(Solution10([]int{1, 3, 2, 1, 2, 1, 5, 3, 3, 4, 2}))
+	//fmt.Println(Solution10([]int{6, 3, 2, 1, 2, 1, 5, 3, 3, 4, 2}))
+
+	//fmt.Println(Solution8("test 5 ?a0A pass007? ?xy1 a1aaa"))
 
 	//fmt.Println(Solution7(1))
 	//fmt.Println(Solution6(0, 1))
